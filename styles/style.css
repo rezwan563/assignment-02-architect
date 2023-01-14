@@ -1,0 +1,92 @@
+/*-------------
+ Universal style
+--------------- */
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* ---------------
+header style
+------------------ */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 236px;
+    margin-right: 236px;
+}
+.company-name{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+ul{
+    display: flex;
+    gap:30px;
+}
+li {
+    list-style-type: none;   
+}
+a{
+    text-decoration: none;
+    color: #424242;
+}
+a:hover{
+    background-color: #b4afaf;
+    padding: 10px;
+}
+.banner-items{
+    display: flex;
+    justify-content: center;
+}
+/* -------
+change width in mobile device
+---------- */
+.banner-text{
+    width: 862px;
+    
+    text-align: center;
+}
+.banner-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+}
+.banner-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 33px;
+}
+.primary-btn{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.banner-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px
+}
+/* ------------------
+image collage and text style
+--------------------- */
+.images-collage{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
