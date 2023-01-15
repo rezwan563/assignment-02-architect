@@ -34,9 +34,9 @@ ul{
 li {
     list-style-type: none;   
 }
-/* li:hover{
+li:hover{
     transform:scale(1.2);
-} */
+}
 a{
     text-decoration: none;
     color: #424242;
@@ -234,6 +234,11 @@ Facts Container
 .box-contents{
     padding: 46px 36px 60px 36px;
     text-align: center;
+    
+}
+.box-contents:hover, .facts-box:hover{
+    transform: scale(1.2) translate(-10px, 10px);
+    
 }
 .box-contents p{
     margin-bottom: 0;
@@ -299,7 +304,7 @@ contact section style */
     font-size: 36px;
     color: #FFFFFF;
     font-weight: 900;
-    padding-top: ;
+    
 }
 .text-input{
     
@@ -319,7 +324,7 @@ contact section style */
 .submit{
     background: #fbc8c8;
     font-weight: 900;
-    padding-bottom: ;
+    
 }
 /* -----------
 foooter style
@@ -339,7 +344,7 @@ foooter style
     text-align: center;
     font-weight: 700;
     color: #727272;
-    color: 
+    
 }
 /*-----------------
 Media queries
@@ -376,7 +381,73 @@ Media queries
         left: 0;
         margin-top: 20px;
     }
+    .team-info{
+        width: 100%;
+    }
+    .features{
+        grid-template-columns: 1fr;
+        margin: 0;
+        width: 100%
+    }
+    .features-contents{
+        width: 100%;
+    }
+    .feature-title{
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    .features-description{
+        margin-left: 10px;
+    }
+    .features-box{
+        width: 320px;
+        height: auto;
+        padding: 10px;
+    }
 
+    .women-architect img{   
+        width: 100%;
+
+    }
+    .feature-btn{
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+    .facts-container{
+
+    }
+    .facts-text{
+        margin-left: 10px;
+        text-align: center;
+    }
+    .fact-boxes{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-items: center;
+        grid-row-gap: 10px;
+    }
+    
+    .client-container{
+        margin-left: 10px;
+        margin-right: 10px;
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+        justify-items: center;
+    }
+    .contact{
+        padding-left: 10px;
+    }
+    .text-input input, textarea, button{
+        width: 100%;
+        padding: 5px;
+        border: none;
+        border-radius: 8px;
+ }   
+    .footer{
+        margin: 50px 10px ;
+    }
 }
  
  
