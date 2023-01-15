@@ -1,13 +1,15 @@
 /*-------------
  Universal style
 --------------- */
+
 body{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
+    
 }
 
 /* ---------------
-header style
+Header style
 ------------------ */
 .header{
     background: rgba(255, 144, 14, 0.1);
@@ -31,20 +33,25 @@ ul{
 li {
     list-style-type: none;   
 }
+/* li:hover{
+    transform:scale(1.2);
+} */
 a{
     text-decoration: none;
     color: #424242;
+    /* border: 10px solid transparent; */
 }
 a:hover{
+    /* width: 20px; */
     background-color: #b4afaf;
-    padding: 10px;
+     
 }
 .banner-items{
     display: flex;
     justify-content: center;
 }
 /* -------
-change width in mobile device
+Change width in mobile device
 ---------- */
 .banner-text{
     width: 862px;
@@ -60,7 +67,7 @@ change width in mobile device
     color: #727272;
     font-weight: 400;
     font-size: 16px;
-    margin-bottom: 33px;
+    margin-bottom: 32px;
 }
 .primary-btn{
     width: 180px;
@@ -74,19 +81,278 @@ change width in mobile device
     margin-bottom: 50px;
 }
 .banner-image{
+    
+    bottom: 73px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 45px
+    
 }
 /* ------------------
-image collage and text style
+Image collage and text style
 --------------------- */
 .images-collage{
+    margin-top: 130px;
+    margin-left: 301px;
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    
 }
 .team-images{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
 }
+.info-title{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 45px;
+}
+.quick-list-style{
+    color: #727272;
+    font-weight: 500;
+}
+.of-our-style{
+    color: #131313;
+    font-weight: 700;
+}
+.feature-style{
+    color: #FF900E;
+    font-weight: 700;
+}
+.info-description{
+    color: #727272;
+    margin-bottom: 32px;
+}
+/* ---------------
+Change in mobile device
+--------------- */
+.team-info{
+    position: relative;
+    left: 73px;
+}
+/* ----------------
+Features section style
+------------------- */
+.features{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
+   
+}
+.feature-contents{
+    
+    width: 586px;
+    margin-right: 140px;
+}
+.feature-title{
+    border-left: 5px solid #FF900E;
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 26px;
+}
+.features-description, .feature-details{
+    color: #727272;
+    font-size: 16px;
+}
+.features-box{
+    width: 586px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+}
+.feature-1,
+ .feature-2, 
+ .feature-3, 
+ .feature-4{
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.feature-btn{
+    position: relative;
+    left: 590px;
+    bottom: 100px;
+    width: 340px;
+    height: 200px;
+    /* background-color: #FF900E; */
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+
+}
+ .year-text{
+    font-weight: 700;
+    font-size: 65px;    
+
+}
+/* -----------------
+Facts Container
+---------------------- */
+.facts-text{
+    margin-left: 240px;
+}
+.facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.facts-description{
+    color: #727272;
+    margin: 0;
+}
+.fact-boxes{
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.facts-box{
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    
+    
+}
+.box-contents{
+    padding: 46px 36px 60px 36px;
+    text-align: center;
+}
+.box-contents p{
+    margin-bottom: 0;
+    
+}
+.fact-box-number{
+    margin-top: 0;
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+.fact-box-info{
+    color: #727272;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.fa-solid{
+    font-size: 36px;
+    color: rgb(238, 97, 3);
+}
+.fa-note-sticky{
+    color: skyblue;
+}
+.fa-bars-progress{
+    color: green;
+}
+.fa-envelope{
+    color: yellow;
+}
+/* -----------------
+Sponser style
+-------------------- */
+.sponser-text{
+    text-align: center;
+}
+.sponser-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponser-description{
+    color: #727272;
+}
+.client-container{
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-right: 240px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+/* --------------
+contact section style */
+.contact{
+    margin-left: ;
+    background-color: #FF900E;
+    /* text-align: center; */
+    padding: ;
+}
+.contact-us-text{
+    margin-left: 100px;
+}
+.message-us{
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: 900;
+    padding-top: 50px;
+}
+.text-input{
+    margin-left: ;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+
+}
+.text-input input, textarea, button{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+.submit{
+    background: #fbc8c8;
+    font-weight: 900;
+}
+/*-----------------
+Media queries
+------------------- */
+@media screen and (max-width:576px) {
+    
+    .nav-menu, ul{
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    ul{
+        justify-content: center;
+    }
+    .banner-items{
+        margin-top: 20px;
+    }
+ 
+    .banner-image img{
+        width: 100%;
+    }
+    .images-collage{
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+    .team-images{
+        grid-template-columns: 1fr;
+    }
+    /* .team-image-1 img{
+        width: 100%;
+    } */
+    .team-info{
+        position: relative;
+        left: 0;
+        margin-top: 20px;
+    }
+
+}
+ 
+ 
+
