@@ -140,10 +140,10 @@ Features section style
 .features{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-column-gap: 146px;
+    grid-column-gap: 100px;
     margin-top: 130px;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 190px;
+    
    
 }
 .feature-contents{
@@ -413,9 +413,6 @@ Media queries
         position: relative;
         left: 0;
         bottom: 0;
-    }
-    .facts-container{
-
     }
     .facts-text{
         margin-left: 10px;
