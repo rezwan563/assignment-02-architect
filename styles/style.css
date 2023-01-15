@@ -140,6 +140,7 @@ Features section style
 .features{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-column-gap: 146px;
     margin-top: 130px;
     margin-left: 240px;
     margin-right: 240px;
@@ -180,8 +181,8 @@ Features section style
 }
 .feature-btn{
     position: relative;
-    left: 590px;
-    bottom: 100px;
+    left: 730px;
+    bottom: 250px;
     width: 340px;
     height: 200px;
     /* background-color: #FF900E; */
